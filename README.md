@@ -42,7 +42,7 @@ Berikut struktur kelas utama dalam program:
 
    Di kelas ini juga terdapat semua **logika CRUD (Create, Read, Update, Delete)** serta **event listener** untuk menangani aksi pengguna.
 
-   ![alt text](https://github.com/MamangPermen/TP5DPBO2425C1/blob/main/Dokumentasi/designUI.JPG)
+   ![alt text](https://github.com/MamangPermen/TP5DPBO2425C1/blob/main/Dokumentasi/DesignUI.JPG)
 
 ---
 
