@@ -57,7 +57,8 @@ Berikut struktur kelas utama dalam program:
 2. **Menambahkan Data Produk Baru**  
    Pengguna dapat menambahkan produk baru dengan mengisi semua kolom form input, lalu menekan tombol **Add**.  
    Program akan memeriksa:
-   - Apakah semua field sudah terisi.  
+   - Apakah semua field sudah terisi.
+   - Apakah harga valid? (Bukan huruf)
    - Apakah ID produk sudah ada di database.  
    Jika valid, data akan disimpan ke database dan langsung muncul pada tabel.  
    Setelah berhasil, form akan dikosongkan dan pesan notifikasi ditampilkan.
@@ -77,8 +78,8 @@ Berikut struktur kelas utama dalam program:
 5. **Menghapus Data Produk (Delete)**  
    Untuk menghapus data, pengguna dapat memilih baris produk di tabel, lalu menekan tombol **Delete**.  
    Program akan menampilkan dialog konfirmasi:  
-   *“Apakah Anda yakin ingin menghapus data ini?”*  
-   Jika pengguna memilih **Yes**, data akan dihapus dari database dan tabel diperbarui secara otomatis.
+   *“Hapus data??”*  
+   Jika pengguna memilih **Ya**, data akan dihapus dari database dan tabel diperbarui secara otomatis.
 
 6. **Membersihkan Form Input (Cancel)**  
    Jika pengguna ingin mengosongkan field form atau membatalkan aksi sebelumnya, klik tombol **Cancel**.  
