@@ -31,14 +31,14 @@ Berikut struktur kelas utama dalam program:
    - Menyediakan method untuk mengeksekusi perintah **SELECT, INSERT, UPDATE,** dan **DELETE**.  
    - Menangani error koneksi agar program tetap stabil.
   
-     ### Struktur Tabel
-      | Kolom | Tipe Data | Keterangan |
-      |--------|------------|------------|
-      | `id` | VARCHAR(10) | Primary Key |
-      | `nama` | VARCHAR(100) | Nama produk |
-      | `harga` | DOUBLE | Harga produk |
-      | `kategori` | VARCHAR(50) | Kategori produk |
-      | `sertifikasi` | VARCHAR(50) | Sertifikasi produk |
+     ***Struktur Tabel Database***
+     | Kolom | Tipe Data | Keterangan |
+     |--------|------------|------------|
+     | `id` | VARCHAR(255) | Primary Key |
+     | `nama` | VARCHAR(255) | Nama produk |
+     | `harga` | DOUBLE | Harga produk |
+     | `kategori` | VARCHAR(255) | Kategori produk |
+     | `sertifikasi` | VARCHAR(255) | Sertifikasi produk |
 
 3. **ProductMenu.java**  
    Kelas ini merupakan **tampilan utama aplikasi (GUI)** yang dibuat menggunakan Java Swing Form.  
